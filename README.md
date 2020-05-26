@@ -147,11 +147,15 @@ layout: podcast
 - **category**: episode category,  also **use as podcast name in config file**
 - **media**: mp3/wav file path, you can put it on your `source`  directory and put filename here.
   for example, if your file name is `episode1.mp3`, this option is `episode1.mp3`
-  ├── source
-  │   ├── _posts
-  │   ├── about
-  │   ├── archive
-  │   └── episode1.mp3
+  
+```  
+├── source
+│   ├── _posts
+│   ├── about
+│   ├── archive
+│   └── episode1.mp3
+```
+
 - **image**: episode coverimage
 - **length**: episode file length, in bytes.
 - **type**: file type
