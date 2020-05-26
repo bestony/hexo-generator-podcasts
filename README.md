@@ -2,6 +2,8 @@
 
 # hexo-generator-podcasts
 
+![](https://img.shields.io/npm/v/hexo-generator-podcasts)![](https://img.shields.io/npm/dm/hexo-generator-podcasts) ![NPM](https://img.shields.io/npm/l/hexo-generator-podcasts)
+
 The plugin make your hexo can use as a podcast site.
 
 ## News
@@ -73,7 +75,6 @@ podcasts:
 ### For Multiple Podcast
 
 ```
-
 podcasts:
   - name: "podcast"
     path: "feed/podcast"
