@@ -19,7 +19,7 @@
     "hexo-generator"
   ],
   "author": "Bestony <best.tony@foxmail.com>",
-  "license": "MIT",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/bestony/hexo-generator-podcasts/issues"
   },
