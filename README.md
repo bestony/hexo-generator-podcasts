@@ -48,7 +48,7 @@ podcasts:
       - Management & Marketing
     - Technology
       - Tech News
-  explicit: "clean"
+  explicit: "clean" 
   author: "白宦成"
   link: https://productivity.wiki/
   owner:
@@ -56,6 +56,8 @@ podcasts:
     email: xiqingongzi@gmail.com
   type: episodic
   copyright: 生产力维基
+  updatePeriod: hourly
+  updateFrequency: 1
 ```
 
 - **name**: podcast name, also **use as podcast category**
@@ -64,14 +66,16 @@ podcasts:
 - **subtitle**: podcast subtitle
 - **description**: podcast
 - **image**: podcast cover image, you can put image under `source` directory and put filename here.
-- **language**: podcast language, [ISO-639 style](http://www.loc.gov/standards/iso639-2/php/code_list.php)
+- **language**: podcast language, [ISO-639 style](http://www.loc.gov/standards/iso639-2/php/code_list.php),if not set, value is "en-US"
 - **category**: podcast category.
-- **explicit**: suitable for children? default is "clean"
+- **explicit**: suitable for children? if not set, value is "clean"
 - **author**: podcast author
 - **link**: podcast homepage
 - **owner**: podcast owner with name & email
-- **type**: podcast type, option can be "episodic" or "serial"
+- **type**: podcast type, option can be "episodic" or "serial",if not set, value is "episodic"
 - **copyright**: copyright text
+- **updatePeriod**: update period, if not set, value is "hourly"
+- **updateFrequency**: updateFrequency, if not set, value is 1
 ### For Multiple Podcast
 
 ```
@@ -97,6 +101,8 @@ podcasts:
       email: xiqingongzi@gmail.com
     type: episodic
     copyright: 生产力维基
+    updatePeriod: hourly
+    updateFrequency: 1
   - name: "podcast"
     path: "feed/podcast2"
     title: "生产力维基"
@@ -118,6 +124,8 @@ podcasts:
       email: xiqingongzi@gmail.com
     type: episodic
     copyright: 生产力维基
+    updatePeriod: hourly
+    updateFrequency: 1
 ```
 
 ## Episode Information
