@@ -13,6 +13,7 @@ To know new features and bugfixes, please visit [releases](https://github.com/be
 - Multiple Podcast Support
 - Custom Podcast Path Support
 - Apple Podcast Spec
+- short code for web player: your can insert `{% podplayer %}` into your article for web player
 
 ## Demo 
 
@@ -176,6 +177,10 @@ layout: podcast
 **What's this plugin supposed to do?**
 
 This plugin is used for generating a podcast feed file from your Hexo blog.
+
+**How to add Web Podcast Player?**
+
+add `{% podplayer %}` input any where you want to insert audio player.
 
 ## Future Works
 
