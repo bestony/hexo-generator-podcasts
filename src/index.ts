@@ -45,7 +45,7 @@ function generat_podcast_feed(podcastsConfig:any,locals:any){
   }
 }
 
-hexo.extend.generator.register('test', function (locals: Object) {
+hexo.extend.generator.register('podcasts', function (locals: Object) {
   const podcastsConfig = hexo.config.podcasts;
   /**
    * 如果没有设置，直接退出
