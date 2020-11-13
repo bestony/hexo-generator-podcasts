@@ -153,7 +153,7 @@ layout: podcast
 ---
 ```
 - **title**: episode title
-- **date**: episode publish data
+- **date**: episode publish date
 - **category**: episode category,  also **use as podcast name in config file**
 - **media**: mp3/wav file path, you can put it on your `source`  directory and put filename here.
   for example, if your file name is `episode1.mp3`, this option is `episode1.mp3`
