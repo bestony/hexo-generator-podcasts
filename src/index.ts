@@ -80,7 +80,7 @@ hexo.extend.generator.register('podcasts', function (locals: Object) {
   }
 });
 
-hexo.extend.tag.register('podplayer', function(args){
+hexo.extend.tag.register('podplayer', function(this:any){
   return `\
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" integrity="sha256-uqQQGnDcmRKvhKwc5Vm4XT1GQ2oV6t1U0NR2N9tV+BQ=" crossorigin="anonymous">\
   <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js" integrity="sha256-6Y7CJDaltoeNgk+ZftgCD9jLgmGv4xKUo8nQ0HgAwVo=" crossorigin="anonymous"></script>\

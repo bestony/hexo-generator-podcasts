@@ -4,7 +4,7 @@
   "description": "Hexo Generator for Podcast",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.json",
     "dev": "tsc --watch",
     "test": "echo here is no test"
   },
@@ -19,7 +19,7 @@
     "hexo-generator"
   ],
   "author": "Bestony <best.tony@foxmail.com>",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/bestony/hexo-generator-podcasts/issues"
   },
@@ -28,6 +28,7 @@
     "hexo": "^4.2.1",
     "locutus": "^2.0.11",
     "nunjucks": "^3.2.1",
+    "typescript": "^4.1.3",
     "xml-escape": "^1.1.0"
   },
   "devDependencies": {
