@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-podcasts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hexo Generator for Podcast",
   "main": "dist/index.js",
   "scripts": {
