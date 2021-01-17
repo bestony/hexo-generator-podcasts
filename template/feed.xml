@@ -54,6 +54,10 @@
 			{{explicit}}
 		</explicit>
 		<image href="{{logo|get_url}}" />
+		<itunes:owner>
+			<itunes:name>{{owner.name}}</itunes:name>
+			<itunes:email>{{owner.email}}</itunes:email>
+		</itunes:owner>
 		<owner>
 			<name>
 				{{owner.name}}
