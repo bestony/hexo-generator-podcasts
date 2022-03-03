@@ -35,7 +35,7 @@ add
 ### For Single Podcast
 
 ```yaml
-podcasts:
+podcast:
   name: "podcast"
   path: "feed/podcast"
   title: "生产力维基"
@@ -80,7 +80,7 @@ podcasts:
 ### For Multiple Podcast
 
 ```
-podcasts:
+podcast:
   - name: "podcast"
     path: "feed/podcast"
     title: "生产力维基"
